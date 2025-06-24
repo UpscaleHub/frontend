@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { FaStar } from "react-icons/fa6";
 import { IoRibbon } from "react-icons/io5";
@@ -10,8 +11,10 @@ const ProfileCard = () => {
     >
       <div className=" w-1/6 flex flex-col gap-1.5 ">
         <div className=" flex items-start -space-x-3">
-          <img
-            src="https://tapback.co/api/avatar/johndoe"
+          <Image
+            width={50}
+            height={50}
+            src={"https://tapback.co/api/avatar/johndoe"}
             alt=""
             className=" h-[50px] w-[50px] rounded-full"
           />
