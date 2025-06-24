@@ -92,6 +92,8 @@ const Page = () => {
       {/* Image Section */}
       <div className="hidden md:block w-1/2">
         <Image
+          width={800}
+          height={600}
           src="https://placehold.co/800x600?text=Signup+Illustration"
           alt="Sign Up Illustration"
           className="h-full w-full object-cover"

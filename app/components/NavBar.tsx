@@ -65,13 +65,13 @@ export default function NavBar() {
       <div className="flex items-center justify-center">
         <Link href={"/signup"}>
           <div className="bg-gradient-to-l to-blue-400 from-indigo-500 p-[2.5px] w-fit rounded-full">
-            <button className=" bg-black text-white px-5 py-2 rounded-full paragraph text-sm cursor-pointer">
+            <button className=" bg-black text-white px-8 py-2 rounded-full paragraph text-sm cursor-pointer">
               Sign Up
             </button>
           </div>
         </Link>
         <Link href={"/login"}>
-          <button className="bg-gradient-to-l to-blue-400 from-indigo-500  text-white px-6 py-2 rounded-full paragraph text-[16px] cursor-pointer hover:bg-gray-600 ml-2 ">
+          <button className="bg-gradient-to-l to-blue-400 from-indigo-500  text-white px-10 py-2.5 rounded-full paragraph text-sm cursor-pointer hover:bg-gray-600 ml-2 ">
             Login
           </button>
         </Link>
