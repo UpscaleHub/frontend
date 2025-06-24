@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Clash";
+  src: url("./fonts/ClashDisplay-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Clash p";
+  src: url("./fonts/ClashDisplay-Regular.otf") format("opentype");
+}
+
+.header {
+  font-family: "clash";
+}
+.paragraph {
+  font-family: "clash p";
+}
+
+.gradient-btn {
+  background: linear-gradient(90deg, #3e98d3 0%, #4a5aa4 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+body {
+  background: #080808;
+}
+
+body{
+    background: #080808;
+}
+
+@import "tailwindcss";
+
+@theme inline {
+  --animate-scroll: scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite;
+
+  @keyframes scroll {
+    to {
+      transform: translate(calc(-50% - 0.5rem));
+    }
+  }
+}
+
