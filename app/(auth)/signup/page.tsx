@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React, { useState } from "react";
 import { FaXTwitter } from "react-icons/fa6";
 import { FcGoogle } from "react-icons/fc";
@@ -97,7 +98,7 @@ const Page = () => {
 
       {/* Image Section */}
       <div className="hidden md:block w-1/2">
-        <img
+        <Image
           src="https://placehold.co/800x600?text=Signup+Illustration"
           alt="Sign Up Illustration"
           className="h-full w-full object-cover"

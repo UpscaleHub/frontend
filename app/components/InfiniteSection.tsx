@@ -1,9 +1,8 @@
 import React from "react";
-import { InfiniteMovingCards } from "../hooks/InfiniteMovingCards";
+import { InfiniteMovingCards } from "./hooks/InfiniteMovingCards";
 import Image from "next/image";
 import logo from "../imgs/nearlogo.png";
 import logo2 from "../imgs/filelogo.png";
-import { log } from "console";
 
 export default function InfiniteSection() {
   const logos = [
