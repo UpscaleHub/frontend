@@ -35,7 +35,7 @@ const History = () => {
   };
 
   return (
-    <div className="w-[280px] h-screen header flex flex-col bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl overflow-hidden">
+    <div className="w-[280px] h-full header flex flex-col bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl overflow-hidden">
       <div className="p-6 space-y-4">
         <div className="space-y-3">
           <button className="w-full p-3 flex items-center gap-3 rounded-full px-5 bg-gradient-to-r from-cyan-400 to-blue-700 text-white border-none cursor-pointer transition-all duration-200 hover:shadow-lg hover:scale-105 active:scale-95">

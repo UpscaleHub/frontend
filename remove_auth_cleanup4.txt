@@ -1,0 +1,5 @@
+Delete the files:
+- c:\Users\Dell\OneDrive\Documents\React Projects\frontend\app\lib\auth.ts
+- c:\Users\Dell\OneDrive\Documents\React Projects\frontend\app\context\AuthContext.tsx
+
+No other code changes are needed as there are no references to these files.

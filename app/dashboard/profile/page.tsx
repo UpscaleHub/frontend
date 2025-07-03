@@ -1,20 +1,16 @@
 import React from "react";
 import ProfileCard from "./components/profileCard";
-import About from "./components/about";
+import { About, Stats } from "./components/about";
 
 const Page = () => {
   return (
-    <div className="md:px-[40px] space-y-6">
+    <div className="md:px-[100px] space-y-6">
       <div className="">
         <ProfileCard />
       </div>
-      <div className=" flex justify-between">
-        <div className=" w-1/2">
-          <About />
-        </div>
-        <div className="">
-          <About />
-        </div>
+      <div className="w-full flex flex-col gap-0 items-center md:grid md:grid-cols-3 md:items-start md:justify-center">
+        <About />
+        <Stats />
       </div>
     </div>
   );

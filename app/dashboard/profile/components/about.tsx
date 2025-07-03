@@ -1,11 +1,12 @@
-import React from "react";
+'use client'
+import React, { useState } from "react";
+import { dummyData } from "@/app/leaderboard/dummyList";
 
-const About = () => {
+export function About ()  {
+  
   return (
     <div
-      className="w-[353px] z-10   space-y-6 header p-5 h-[490px] border border-[#FFFFFF40] bg-white/5 rounded-xl backdrop-blur-[150px]
-"
-    >
+      className={`z-5  w-[353px] h-[490px] space-y-6 header p-5  border border-[#FFFFFF40] bg-white/5 rounded-3xl backdrop-blur-[150px]`}>
       <div className=" space-y-2">
         <h2 className=" text-white">About</h2>
         <hr className=" border-t border-t-white/50" />
@@ -40,4 +41,61 @@ const About = () => {
   );
 };
 
-export default About;
+
+
+export function Stats()  {
+  const [view, setView] = useState("hidden")
+
+  const toggle = () => {
+   return view === "hidden" ? setView("block") : setView("hidden")
+  }
+  return (
+     <div
+      className={`w-[800px] h-auto z-5   space-y-6 header p-5  border border-[#FFFFFF40] bg-white/5 rounded-3xl backdrop-blur-[150px]`}>
+    
+       
+      <div className=" space-y-3">
+        <h2 className=" text-white text-center">Skillss</h2>
+      
+        <div className="">
+          <ul className=" grid grid-cols-2 gap-10  px-20 py-4" >
+            <li className=" text-white">
+              XP: &nbsp; 20000
+            </li>
+            <li className=" text-white text-center">
+              Course: &nbsp;5
+            </li>
+            <li className=" text-white">
+              $UP Token: &nbsp;10
+            </li>
+            <li className=" text-white text-center">
+              Streak: &nbsp;10
+            </li>
+            
+          </ul>
+        </div>
+
+        <div className={`text-white ${view}`}>
+          <h2 className="text-center">Quests</h2>
+          <div className="flex flex-col gap-3 px-20 py-5">
+            <p>Ongoing course: {dummyData[0].ongoingCourse}%</p>
+            <p>Daily Quiz: {dummyData[0].dailyQuiz}</p>
+            {/* <p>Streaks: {dummyData[0].streak}%</p> */}
+
+          </div>
+
+           <h2 className="text-center">Achievement</h2>
+          <div className="flex flex-col gap-3 px-20 pt-5 pb-2">
+            <p>Ongoing course: {dummyData[0].ongoingCourse}%</p>
+            <p>Daily Quiz: {dummyData[0].dailyQuiz}</p>
+            {/* <p>Streaks: {dummyData[0].streak}%</p> */}
+
+          </div>
+        </div>
+        <p onClick={toggle} className="text-center text-white/30 cursor-pointer">{view === "hidden" ? "Show more" : "Show less"}</p>
+      </div>
+    </div>
+  );
+}
+
+

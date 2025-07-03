@@ -23,7 +23,7 @@ const Feature = () => {
       details:
         "Select a course and start your journey Select a course and start your journey",
       btnText: "Chat Ai",
-      link: "/ai",
+      link: "/chat",
     },
     {
       heading: "Enter Classroom",

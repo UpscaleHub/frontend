@@ -26,7 +26,7 @@ const Message = () => {
   };
 
   return (
-    <div className="w-[786px] pt-6 h-screen header flex flex-col bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl overflow-hidden">
+    <div className="w-[786px] pt-6 h-auto header flex flex-col bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl overflow-hidden">
       <div className=" flex items-center justify-between px-6 border-b border-white/10 pb-4">
         <span className=" bg-gradient-to-r from-cyan-400 to-blue-800 text-transparent bg-clip-text text-2xl font-bold ">
           Scale AI{" "}

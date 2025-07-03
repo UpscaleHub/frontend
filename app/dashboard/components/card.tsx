@@ -11,7 +11,7 @@ type CardProps = {
 const Card: React.FC<CardProps> = ({ heading, details, btnText, link }) => {
   return (
     <div
-      className="w-full z-10  space-y-6 header p-5 h-[205px] border border-[#FFFFFF40] bg-white/5 rounded-xl backdrop-blur-[150px]
+      className="w-full z-5  space-y-6 header p-5 h-[205px] border border-[#FFFFFF40] bg-white/5 rounded-xl backdrop-blur-[150px]
 "
     >
       <h2 className="bg-gradient-to-b text-[16px]  to-blue-400 from-cyan-400 bg-clip-text text-transparent text-sm">

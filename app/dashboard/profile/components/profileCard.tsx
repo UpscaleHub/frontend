@@ -6,7 +6,7 @@ import { IoRibbon } from "react-icons/io5";
 const ProfileCard = () => {
   return (
     <div
-      className="w-full z-10 flex justify-between   space-y-6 header p-5 md:px-10 px-6 h-[128px] border border-[#FFFFFF40] bg-white/5 rounded-xl backdrop-blur-[150px]
+      className="w-full z-5 flex justify-between   space-y-6 header p-5 md:px-10 px-6 h-[128px] border border-[#FFFFFF40] bg-white/5 rounded-3xl backdrop-blur-[150px]
 "
     >
       <div className=" w-1/6 flex flex-col gap-1.5 ">

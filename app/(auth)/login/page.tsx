@@ -4,13 +4,21 @@ import React, { useState } from "react";
 import { FaXTwitter } from "react-icons/fa6";
 import { FcGoogle } from "react-icons/fc";
 
+
 const Page = () => {
+
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [localError, setLocalError] = useState("");
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>): void => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>): Promise<void> => {
     e.preventDefault();
-    console.log({ email, password });
+    setLocalError("");
+    if (!email || !password) {
+      setLocalError("Email and password are required.");
+      return;
+    }
+   
   };
 
   return (
@@ -25,6 +33,12 @@ const Page = () => {
               Welcome Back
             </span>
           </div>
+
+        {/* {(localError || error) && (
+            <div className={` border  px-4 py-3 rounded relative ` + ((localError || error)?.includes("Successful") ? "border-green-400 text-green-700 bg-green-100" : "border-red-400 text-red-700")}> 
+              {localError || error}
+            </div>
+          )} */}
 
           <button className="w-full h-10 mb-4 border text-sm text-white border-[#E5E5E5] flex items-center justify-center gap-2 rounded-lg  cursor-pointer transition">
             <FcGoogle size={25} />
@@ -54,6 +68,7 @@ const Page = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
+            
               />
             </div>
 
@@ -69,20 +84,22 @@ const Page = () => {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
+      
               />
             </div>
 
             <button
               type="submit"
-              className="w-full header cursor-pointer bg-gradient-to-b to-blue-400 from-cyan-400  text-white py-2 rounded-full hover:bg-[#1b3c3a] transition font-medium"
+      
+              className="w-full header cursor-pointer bg-gradient-to-b to-blue-400 from-cyan-400  text-white py-2 rounded-full hover:bg-[#1b3c3a] transition font-medium disabled:opacity-50"
             >
-              Create Account
+              {"Login"}
             </button>
           </form>
 
           <div className="text-center text-sm text-gray-400">
             Don&apos;t have an account?{" "}
-            <a href="/login" className=" font-bold underline">
+            <a href="/signup" className=" font-bold underline">
               Sign Up
             </a>
           </div>
@@ -94,8 +111,8 @@ const Page = () => {
         <Image
           width={800}
           height={600}
-          src="https://placehold.co/800x600?text=Signup+Illustration"
-          alt="Sign Up Illustration"
+          src="https://placehold.co/800x600?text=Login+Illustration"
+          alt="Login Illustration"
           className="h-full w-full object-cover"
         />
       </div>

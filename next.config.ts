@@ -21,7 +21,19 @@ const nextConfig: NextConfig = {
         hostname: 'tapback.co',
         port: '',
         pathname: '/**',
-      }
+      },
+      {
+        protocol: 'https',
+        hostname: 'avatar.iran.liara.run',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'upscale-hub.onrender.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
   }
 };
