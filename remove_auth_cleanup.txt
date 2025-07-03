@@ -1,5 +1,0 @@
-Remove all imports and usage of auth and AuthContext from the codebase. Delete the following files:
-- app/lib/auth.ts
-- app/context/AuthContext.tsx
-
-Check all pages and components for any import or usage of these modules and remove them.

@@ -17,7 +17,7 @@ const Page = () => {
     e.preventDefault();
     setLocalError("");
     if (!name || !email || !password) {
-      setLocalError("All fields are required.");
+      setLocalError("All fields are required." + localError);
       return;
     }
   

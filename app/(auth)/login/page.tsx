@@ -15,7 +15,7 @@ const Page = () => {
     e.preventDefault();
     setLocalError("");
     if (!email || !password) {
-      setLocalError("Email and password are required.");
+      setLocalError("Email and password are required." + localError);
       return;
     }
    

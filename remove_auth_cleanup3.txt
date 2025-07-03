@@ -1,5 +1,0 @@
-Ready to delete:
-- app/lib/auth.ts
-- app/context/AuthContext.tsx
-
-No references found in the rest of the codebase. Proceeding to delete these files.
