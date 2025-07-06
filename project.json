@@ -1,0 +1,40 @@
+{
+  "name": "Upscale",
+  "tagline": "Learn, Prove, and Earn - All On-Chain.",
+  "description": "Upscale is a decentralized learning and hiring platform built on the NEAR Protocol. It helps users grow their careers by verifying real-world skills through AI-generated aptitude tests, recommending personalized courses, and rewarding learners with NEAR tokens for completing learning paths and passing tests. Employers can browse certified talent, and users can build a verifiable, on-chain skill profile that replaces traditional résumés. All progress, rewards, and credentials are stored securely and transparently on-chain via smart contracts. Upscale combines education, blockchain, and AI to create a fairer, data-driven path from learning to employment.",
+  "team": [
+    {
+      "name": "AndiThe4th",
+      "email": "andithreads117@gmail.com"
+    },
+    {
+      "name": "Techie Sam",
+      "email": "techiesam.dev@gmail.com"
+    },
+    {
+        "name": "404 Dev",
+        "email": "olaiwonabdullshi@gmail.com"
+    },
+    {
+        "name": "Arthony Graphix",
+        "email": "arthonygrafix@gmail.com"
+    },
+    {
+      "name": "Joey",
+      "email": ""
+    },
+    {
+      "name": "Domma",
+      "email": ""
+    }
+  ],
+  "demo_url": "https://upscalehub.vercel.app",
+  "video_url": "https://www.youtube.com/",
+  "technologies": [
+    "React",
+    "Shadcn",
+    "near-sdk-js",
+    "Typescript",
+    "Tailwind CSS"
+  ]
+}
