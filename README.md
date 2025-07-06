@@ -6,6 +6,22 @@ This is the frontend repo built with **Next.js**, **TailwindCSS**, and integrate
 
 ---
 
+## 📄 Project Pitch (Notion)
+
+For a full breakdown of our vision, use cases, token model, and demo plans:
+
+👉 [View Notion Pitch Document](https://www.notion.so/Upscale-Project-Pitch-Pre-Document-Overview-Presented-by-the-Upscale-Team-22408492f17280feb0fefe7b846640ed)
+
+## ✨ Core Features
+
+- 🧠 **AI Skill Assessment:** Users chat with an AI agent that determines their experience level.
+- 📚 **Personalized Course Enrollment:** Based on AI analysis, users are enrolled in beginner, intermediate, or advanced tracks.
+- 🎯 **Section-Based Testing:** Each course section ends with an AI-generated test.
+- 🏆 **Rewards System:** Passing tests earns users NEAR tokens.
+- ⚖️ **Rebalancer Bot:** Automatically stakes or converts rewards for users based on rules.
+
+---
+
 ## 📁 Project Structure
 
 🔹 This project is organized into 3 separate repositories under the [`UpscaleHub`](https://github.com/UpscaleHub) GitHub organization:
