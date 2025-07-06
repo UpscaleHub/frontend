@@ -27,6 +27,18 @@ This is the frontend repo built with **Next.js**, **TailwindCSS**, and integrate
 
 ---
 
+---
+
+## 🤖 AI Onboarding Agent (Powered by NEAR AI)
+
+The AI onboarding agent is **powered by NEAR AI** and currently runs as a separate interface. It evaluates a user's skills through conversation and determines their learning path (e.g., beginner, intermediate, advanced).
+
+🔗 **Test the AI Agent:** [`https://app.near.ai/agents/upscalehub.near/UpscaleHub-Mentor/latest/run`](https://app.near.ai/agents/upscalehub.near/UpscaleHub-Mentor/latest/run)
+
+🧠 The results will later be stored via smart contract calls and used to enroll users in tailored courses — integration in progress.
+
+---
+
 ## 📦 Getting Started with Frontend Repo
 
 ```bash
@@ -35,6 +47,7 @@ cd frontend
 npm install
 npm run dev
 ```
+---
 
 ## 📜 Running Smart Contracts
 The smart contracts are in the [`contract repository`](https://github.com/UpscaleHub/contract), written using near-sdk-js and deployed on the NEAR testnet.
