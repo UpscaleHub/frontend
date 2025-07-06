@@ -30,7 +30,6 @@ For a full breakdown of our vision, use cases, token model, and demo plans:
 |-------------|--------------------------------------------------|
 | [`frontend`](https://github.com/UpscaleHub/frontend) | Main web interface (this repo) |
 | [`contract`](https://github.com/UpscaleHub/contract)  | Smart contracts written in `near-sdk-js` |
-| [`backend`](https://github.com/UpscaleHub/backend)    | Node.js API for AI scoring, auth, and data logic |
 
 ---
 
