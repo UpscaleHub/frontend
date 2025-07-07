@@ -2,7 +2,7 @@
 
 **Upscale** is a Web3-powered learning and hiring platform that certifies skills, recommends personalized courses, and rewards users using NEAR smart contracts.
 
-This is the frontend repo built with **Next.js**, **TailwindCSS**, and integrates with smart contracts on the **NEAR testnet**.
+This is the frontend repo built with **Next.js**, **TailwindCSS**, and integrates with smart contracts on the **NEAR testnet**. deployed to [https://upscalehub.vercel.app](https://upscalehub.vercel.app)
 
 ---
 
