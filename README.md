@@ -17,7 +17,7 @@ For a full breakdown of our vision, use cases, token model, and demo plans:
 - 🧠 **AI Skill Assessment:** Users chat with an AI agent that determines their experience level.
 - 📚 **Personalized Course Enrollment:** Based on AI analysis, users are enrolled in beginner, intermediate, or advanced tracks.
 - 🎯 **Section-Based Testing:** Each course section ends with an AI-generated test.
-- 🏆 **Rewards System:** Passing tests earns users NEAR tokens.
+- 🏆 **Rewards System:** Passing tests earns users NEAR tokens (later our native token $UPSK).
 - ⚖️ **Rebalancer Bot:** Automatically stakes or converts rewards for users based on rules.
 
 ---
